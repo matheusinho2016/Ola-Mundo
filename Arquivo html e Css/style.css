@@ -1,1 +1,29 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+/*--banner-starts--*/
+.banner-1{
+	background:url(Ola-Mundo/imagens/banner.jpg) no-repeat center;
+	min-height:700px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.banner-2{
+	background:url(Ola-Mundo/imagens/banner-3.jpg) no-repeat;
+	min-height:700px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+.banner-3{
+	background:url(Ola-Mundo/imagens/banner-2.jpg) no-repeat center;
+	min-height:700px;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
