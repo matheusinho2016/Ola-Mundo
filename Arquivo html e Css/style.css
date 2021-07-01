@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
 /*--banner-starts--*/
 .banner-1{
 	background:url(Ola-Mundo/imagens/banner.jpg) no-repeat center;
@@ -27,3 +28,125 @@
 	-o-background-size:cover;
 	-ms-background-size:cover;
 }
+/*------------------ Slider Part starts Here----------*/
+.callbacks_container {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+  .callbacks {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .callbacks li {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .callbacks_nav {
+        position: absolute;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        top: 82%;
+      left: 14%;
+        opacity: 0.7;
+        z-index: 3;
+        text-indent: -9999px;
+        overflow: hidden;
+        text-decoration: none;
+        height: 30px;
+        width: 30px;
+        background: transparent url("../images/arrows.png") no-repeat left top;
+  }
+  .callbacks_nav:active {
+        opacity: 1.0;
+  }
+  .callbacks_nav.next {
+        left: auto;
+        background-position: right top;
+        right: 82.2%;
+  }
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .rslides img {
+    height: auto;
+  }
+  .callbacks_tabs {
+      list-style: none;
+      position: absolute;
+      top: 93%;
+      z-index: 999;
+      left: 0%;
+      width: 100%;
+      text-align: left;
+      margin: 0;
+      display: block;
+  }
+  .callbacks_tabs li{
+      display:inline-block;
+  }
+  @media screen and (max-width: 600px) {
+    .callbacks_nav {
+      top: 47%;
+      }
+  }
+  /*----*/
+  .callbacks_tabs a{
+      visibility: hidden;
+  }
+  .callbacks_tabs a:after {
+      content: "\f111";
+      font-size: 0;
+      font-family: FontAwesome;
+      visibility: visible;
+      display: block;
+      height: 6px;
+      width: 60px;
+      display: inline-block;
+      border: none;
+      background: #8c2830;
+  }
+  .callbacks_here a:after{
+      background:#181b2a;
+  }
+  ul.callbacks_tabs.callbacks2_tabs {
+      display: block;
+  }
+  /*--Slider-Part-Ends-Here--*/	
+  .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+  }
+  .rslides img {
+    height: auto;
+  }
